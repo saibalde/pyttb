@@ -17,6 +17,7 @@ from pyttb.export_data import export_data
 from pyttb.gcp_opt import gcp_opt
 from pyttb.hosvd import hosvd
 from pyttb.import_data import import_data
+from pyttb.isvd import isvd
 from pyttb.khatrirao import khatrirao
 from pyttb.ktensor import ktensor
 from pyttb.matlab import matlab_support
@@ -45,6 +46,7 @@ __all__ = [  # noqa: PLE0604
     gcp_opt.__name__,
     hosvd.__name__,
     import_data.__name__,
+    isvd.__name__,
     khatrirao.__name__,
     ktensor.__name__,
     matlab_support.__name__,
